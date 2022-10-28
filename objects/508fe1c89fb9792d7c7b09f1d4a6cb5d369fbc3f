@@ -1,0 +1,7 @@
+[module "83503a9b-1864-3e52-b75f-0cfccd14b9d2"]
+	conflict = request-pull
+	path = MSG
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://gh/558741531
